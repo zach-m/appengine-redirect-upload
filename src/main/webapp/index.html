@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Upload with Redirect</title>
+</head>
+
+<body>
+	<h1>Upload with Redirect</h1>
+
+	<p>
+		Check out the <a href="https://github.com/zach-m/gae-redirect-upload">code on GitHub</a>
+	<hr />
+
+	<p />
+
+	<fieldset>
+		<legend>&nbsp;Upload tester&nbsp;</legend>
+		<form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+			<p>
+				Select file 1: <input type="file" name="file1" />
+			</p>
+			<p>
+				Select file 2: <input type="file" name="file2" />
+			</p>
+			<input type="submit" value="Upload" />
+		</form>
+	</fieldset>
+
+</body>
+</html>
